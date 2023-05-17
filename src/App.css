@@ -1,0 +1,51 @@
+.app {
+  background-color: rgb(180, 175, 175);
+  height: 100vh;
+  text-align: center;
+}
+
+.header > h1 {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5rem 2rem 1rem 2rem;
+}
+
+.footer {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+li {
+  margin-top: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.add-time {
+  margin-top: 1rem;
+}
+
+.add-time > span {
+  padding: 5px;
+}
+
+.add-time > label {
+  padding: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.add-time > input {
+  padding: 3px;
+  width: 50px;
+}
